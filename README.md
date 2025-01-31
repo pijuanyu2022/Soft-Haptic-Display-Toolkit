@@ -35,45 +35,45 @@ A **fingertip-sized, high-resolution pneumatic haptic display** designed to prov
 
 Static Patterns
 <p>
-  <img src="Docs/images/Gif/static_1.gif" alt="static animation 1" width="160" />
-  <img src="Docs/images/Static/1.png" alt="static 1" width="157" />
-  <img src="Docs/images/Static/2.png" alt="static 2" width="142" />
-  <img src="Docs/images/Static/3.png" alt="static 3" width="150" />
-  <img src="Docs/images/Static/4.png" alt="static 4" width="145" />
-  <img src="Docs/images/Static/5.png" alt="static 5" width="151" />
-  <img src="Docs/images/Static/6.png" alt="static 6" width="142" />
+  <img src="Docs/Images/Gif/static_1.gif" alt="static animation 1" width="160" />
+  <img src="Docs/Images/Static/1.png" alt="static 1" width="157" />
+  <img src="Docs/Images/Static/2.png" alt="static 2" width="142" />
+  <img src="Docs/Images/Static/3.png" alt="static 3" width="150" />
+  <img src="Docs/Images/Static/4.png" alt="static 4" width="145" />
+  <img src="Docs/Images/Static/5.png" alt="static 5" width="151" />
+  <img src="Docs/Images/Static/6.png" alt="static 6" width="142" />
   
 </p>
 
 <p>
-  <img src="Docs/images/Gif/static_2.gif" alt="static animation 2" width="160" />
-  <img src="Docs/images/Static/7.png" alt="static 7" width="150" />
-  <img src="Docs/images/Static/8.png" alt="static 8" width="148" />
-  <img src="Docs/images/Static/9.png" alt="static 9" width="145" />
-  <img src="Docs/images/Static/10.png" alt="static 10" width="145" />
-  <img src="Docs/images/Static/11.png" alt="static 11" width="148" />
-  <img src="Docs/images/Static/12.png" alt="static 12" width="160" />
+  <img src="Docs/Images/Gif/static_2.gif" alt="static animation 2" width="160" />
+  <img src="Docs/Images/Static/7.png" alt="static 7" width="150" />
+  <img src="Docs/Images/Static/8.png" alt="static 8" width="148" />
+  <img src="Docs/Images/Static/9.png" alt="static 9" width="145" />
+  <img src="Docs/Images/Static/10.png" alt="static 10" width="145" />
+  <img src="Docs/Images/Static/11.png" alt="static 11" width="148" />
+  <img src="Docs/Images/Static/12.png" alt="static 12" width="160" />
   
 </p>
 
 
 Animation Patterns
 <p>
-  <img src="Docs/images/Gif/1.gif" alt="Animation 1" width="160" />
-  <img src="Docs/images/Animation/5.png" alt="Animation 5" width="150" />
-  <img src="Docs/images/Animation/6.png" alt="Animation 6" width="155" />
-  <img src="Docs/images/Gif/2.gif" alt="Animation 2" width="160" />
-  <img src="Docs/images/Animation/7.png" alt="Animation 5" width="163" />
-  <img src="Docs/images/Animation/8.png" alt="Animation 6" width="172" />
+  <img src="Docs/Images/Gif/1.gif" alt="Animation 1" width="160" />
+  <img src="Docs/Images/Animation/5.png" alt="Animation 5" width="150" />
+  <img src="Docs/Images/Animation/6.png" alt="Animation 6" width="155" />
+  <img src="Docs/Images/Gif/2.gif" alt="Animation 2" width="160" />
+  <img src="Docs/Images/Animation/7.png" alt="Animation 5" width="163" />
+  <img src="Docs/Images/Animation/8.png" alt="Animation 6" width="172" />
   
 </p>
 
 <p>
-  <img src="Docs/images/Gif/3.gif" alt="Animation 2" width="150" />
-  <img src="Docs/images/Animation/9.png" alt="Animation 5" width="180" />
-  <img src="Docs/images/Animation/10.png" alt="Animation 6" width="205" />
-  <img src="Docs/images/Animation/11.png" alt="Animation 5" width="150" />
-  <img src="Docs/images/Animation/12.png" alt="Animation 6" width="142" />
+  <img src="Docs/Images/Gif/3.gif" alt="Animation 2" width="150" />
+  <img src="Docs/Images/Animation/9.png" alt="Animation 5" width="180" />
+  <img src="Docs/Images/Animation/10.png" alt="Animation 6" width="205" />
+  <img src="Docs/Images/Animation/11.png" alt="Animation 5" width="150" />
+  <img src="Docs/Images/Animation/12.png" alt="Animation 6" width="142" />
   
 </p>
 
