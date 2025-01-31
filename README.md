@@ -12,7 +12,7 @@ A **fingertip-sized, high-resolution pneumatic haptic display** designed to prov
 - [Screenshots](#screenshots)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Quick Start](#quick-start)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
@@ -33,7 +33,7 @@ A **fingertip-sized, high-resolution pneumatic haptic display** designed to prov
 
 ## Screenshots
 
-The 4 × 4 tactile array haptic display (red) is connected to the control box (white) via transparent air tubes. The control box communicates with the laptop wirelessly using a socket communication method.
+The **4 × 4 tactile array haptic display (red)** is connected to the **control box (white)** via transparent air tubes. The control box communicates with the laptop **wirelessly** using a socket communication method.
 
 <p>
   <img src="Docs/Images/System Overview.png" alt="static animation 1" width="800" />
@@ -41,25 +41,27 @@ The 4 × 4 tactile array haptic display (red) is connected to the control box (w
 </p>
 
 
-Static Patterns
+**Selected Static Patterns**
 <p>
   <img src="Docs/Images/Gif/static_1.gif" alt="static animation 1" width="160" />
-  <img src="Docs/Images/Static/1.png" alt="static 1" width="137" />
-  <img src="Docs/Images/Static/2.png" alt="static 2" width="122" />
-  <img src="Docs/Images/Static/3.png" alt="static 3" width="130" />
-  <img src="Docs/Images/Static/4.png" alt="static 4" width="125" />
-  <img src="Docs/Images/Static/5.png" alt="static 5" width="131" />
-  <img src="Docs/Images/Static/6.png" alt="static 6" width="122" />
+  <img src="Docs/Images/Static/1.png" alt="static 1" width="105" />
+  <img src="Docs/Images/Static/2.png" alt="static 2" width="95" />
+  <img src="Docs/Images/Static/3.png" alt="static 3" width="101" />
+  <img src="Docs/Images/Static/4.png" alt="static 4" width="98" />
+  <img src="Docs/Images/Static/5.png" alt="static 5" width="102" />
+  <img src="Docs/Images/Static/6.png" alt="static 6" width="95" />
   
 </p>
 
 
-Animation Patterns
+**Selected Animation Patterns**
 <p>
   <img src="Docs/Images/Gif/1.gif" alt="Animation gif 1" width="160" />
   <img src="Docs/Images/Animation/5.png" alt="Animation 1" width="150" />
   <img src="Docs/Images/Animation/6.png" alt="Animation 2" width="155" />
+</p>
 
+<p>
   <img src="Docs/Images/Gif/2.gif" alt="Animation gif 2" width="160" />
   <img src="Docs/Images/Animation/7.png" alt="Animation 3" width="163" />
   <img src="Docs/Images/Animation/8.png" alt="Animation 4" width="172" />
@@ -70,8 +72,8 @@ Animation Patterns
   <img src="Docs/Images/Gif/3.gif" alt="Animation gif 3" width="150" />
   <img src="Docs/Images/Animation/9.png" alt="Animation 5" width="180" />
   <img src="Docs/Images/Animation/10.png" alt="Animation 6" width="205" />
-  <img src="Docs/Images/Animation/11.png" alt="Animation 7" width="150" />
-  <img src="Docs/Images/Animation/12.png" alt="Animation 8" width="142" />
+  <img src="Docs/Images/Animation/11.png" alt="Animation 7" width="127" />
+  <img src="Docs/Images/Animation/12.png" alt="Animation 8" width="120" />
   
 </p>
 
@@ -112,7 +114,7 @@ Purchase all required items from:
 - [list of Pneumatic.md](Hardware/Bill%20of%20Materials/list%20of%20Pneumatic.md)
 - [list of Silicone.md](Hardware/Bill%20of%20Materials/list%20of%20Silicone.md)
 
-Follow the instructions in [docs/manual/hardware_assembly.md](docs/manual/hardware_assembly.md) to:
+Follow the instructions in [Docs/Manual/hardware_assembly.md](Docs/Manual/hardware_assembly.md) to:
 1. **3D-print** the mold and control box.
 2. **Fabricate** the tactile array.
 3. **Solder** the control board.
@@ -160,3 +162,51 @@ python run_robot.py
 
 Tips: You can also install the Arduino IDE on the Raspberry Pi and use the Pi to upload the code to the Arduino Uno.
 
+---
+## Quick Start
+
+#### 1. **Connect your PC and Raspberry Pi** to the same Wi-Fi network.
+
+#### 2. **Find the Raspberry Pi’s IP address**:
+- On the Raspberry Pi’s **Terminal**, type:
+```plaintext
+ifconfig
+```
+- Look for the `wlan0` or `eth0` section. The IP might look like `192.168.x.x`.
+
+#### 3. **Open a Command Prompt** on your Windows PC:
+- Press the **Start Menu** or **Taskbar** search, type `"cmd"`, and press Enter.
+
+#### 4. Click Command Prompt and put
+```plaintext
+ssh [username]@[IP address]
+```
+- Example
+```plaintext
+ssh pi@192.168.1.100
+```
+- Enter the Pi’s password when prompted.
+
+#### 5. Once connected, you should see something like:
+```plaintext
+pi@raspberrypi: ~ $
+```
+This indicates that the Command Prompt is now logged into your Raspberry Pi.
+
+#### 6. Start the control script on the Pi:
+```plaintext
+cd Soft-Haptic-Display-Toolkit/Firmware/Raspberry_Pi/
+source SoftRobo/bin/activate
+python run_robot.py
+```
+- Keep this Command Prompt session open so the script keeps running.
+
+#### 7. On your Windows PC, open Visual Studio Code (or another Python IDE):
+- Navigate to the cloned repository folder:
+```plaintext
+Soft-Haptic-Display-Toolkit/Software
+```
+- Locate and **run** `main.py`.
+#### 8. In the GUI that appears, **click the `Connect` button** (top-left corner) and **enter the Raspberry Pi’s IP address** (the same one used for SSH).
+#### 9. **Follow** the [GUI Usage.md](Docs/Manual/GUI_Usage.md) for detailed steps on controlling the tactile display.
+- You should now be able to **inflate** and **deflate** the soft haptic array channels in real time!
