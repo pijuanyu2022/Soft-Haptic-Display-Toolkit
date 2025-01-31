@@ -219,9 +219,9 @@ Soft-Haptic-Display-Toolkit/Software
 - Firmware Guides: [docs/manual/firmware_setup.md](Docs/Manual/firmware_setup.md)
 - GUI Usage: [docs/manual/GUI Usage.md](Docs/Manual/GUI_Usage.md)
 - Troubleshooting: [docs/Troubleshooting.md](Docs/troubleshooting.md)
-- [list of Controller.md](Hardware/Bill%20of%20Materials/list%20of%20Controller.md)
-- [list of Pneumatic.md](Hardware/Bill%20of%20Materials/list%20of%20Pneumatic.md)
-- [list of Silicone.md](Hardware/Bill%20of%20Materials/list%20of%20Silicone.md)
+- Bill of controller: [Hardware/Bill of Materials/list of Controller.md](Hardware/Bill%20of%20Materials/list%20of%20Controller.md)
+- Bill of pneumatic system: [Hardware/Bill of Materials/list of Pneumatic.md](Hardware/Bill%20of%20Materials/list%20of%20Pneumatic.md)
+- Bill of tactile dislay: [Hardware/Bill of Materials/list of Silicone.md](Hardware/Bill%20of%20Materials/list%20of%20Silicone.md)
 
 For any **unresolved issues**, please file a ticket under the Issues tab.
 
@@ -246,7 +246,7 @@ We are planning to submit this research to the 2025 Ubiquitous Robots Conference
 ---
 ## Acknowledgments
 Special thanks to our collaborators and the open-source community:
-- Our [Frisen Haptics Lab](https://www.friesenhaptics.com/.).
+- Our [Friesen Haptics Lab](https://www.friesenhaptics.com/.).
 - The [INVENT Lab](https://www.theinventlab.com/).
 - The [Soft Robotics Toolkit](https://softroboticstoolkit.com/) for inspiration and design references.
 - The [Soft Robotics Control-unit (SRC)](https://github.com/chukhanhhoang/SoftRoboticSetupFesto?tab=readme-ov-file) for control references.
