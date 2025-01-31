@@ -207,6 +207,46 @@ python run_robot.py
 Soft-Haptic-Display-Toolkit/Software
 ```
 - Locate and **run** `main.py`.
+
 #### 8. In the GUI that appears, **click the `Connect` button** (top-left corner) and **enter the Raspberry Pi’s IP address** (the same one used for SSH).
+
 #### 9. **Follow** the [GUI Usage.md](Docs/Manual/GUI_Usage.md) for detailed steps on controlling the tactile display.
 - You should now be able to **inflate** and **deflate** the soft haptic array channels in real time!
+
+---
+## Documentation
+- Assembly & Fabrication: [docs/manual/hardware_assembly.md](Docs/Manual/hardware_assembly.md)
+- Firmware Guides: [docs/manual/firmware_setup.md](Docs/Manual/firmware_setup.md)
+- GUI Usage: [docs/manual/GUI Usage.md](Docs/Manual/GUI_Usage.md)
+- Troubleshooting: [docs/Troubleshooting.md](Docs/troubleshooting.md)
+- [list of Controller.md](Hardware/Bill%20of%20Materials/list%20of%20Controller.md)
+- [list of Pneumatic.md](Hardware/Bill%20of%20Materials/list%20of%20Pneumatic.md)
+- [list of Silicone.md](Hardware/Bill%20of%20Materials/list%20of%20Silicone.md)
+
+For any **unresolved issues**, please file a ticket under the Issues tab.
+
+---
+## Contributing
+We welcome all forms of contributions—bug reports, feature requests, code improvements, and documentation updates. To get started:
+1. **Fork** this repository.
+2. **Create** a new branch (e.g., feature/new-valve-driver).
+3. **Commit** and **push** your changes.
+4. **Open** a Pull Request describing your modifications.
+
+---
+## License
+This project is licensed under the terms of the [MIT License](./LICENSE).
+
+You are free to **use, modify, and distribute** this work as long as you include the original license and attribution to the authors.
+
+---
+## Citation & References
+We are planning to submit this research to the 2025 Ubiquitous Robots Conference as a regular paper. The citation will be listed in the future.
+
+---
+## Acknowledgments
+Special thanks to our collaborators and the open-source community:
+- Our [Frisen Haptics Lab](https://www.friesenhaptics.com/.).
+- The [INVENT Lab](https://www.theinventlab.com/).
+- The [Soft Robotics Toolkit](https://softroboticstoolkit.com/) for inspiration and design references.
+- The [Soft Robotics Control-unit (SRC)](https://github.com/chukhanhhoang/SoftRoboticSetupFesto?tab=readme-ov-file) for control references.
