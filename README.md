@@ -11,6 +11,8 @@ A **fingertip-sized, high-resolution pneumatic haptic display** designed to prov
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Project Structure](#project-structure)
+
+
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Documentation](#documentation)
@@ -114,7 +116,7 @@ Purchase all required items from:
 - [list of Pneumatic.md](Hardware/Bill%20of%20Materials/list%20of%20Pneumatic.md)
 - [list of Silicone.md](Hardware/Bill%20of%20Materials/list%20of%20Silicone.md)
 
-Follow the instructions in [Docs/Manual/hardware_assembly.md](Docs/Manual/hardware_assembly.md) to:
+Follow the instructions in [Docs/Manual/Hardware_tutorial.md](Docs/Manual/Hardware_tutorial.md) to:
 1. **3D-print** the mold and control box.
 2. **Fabricate** the tactile array.
 3. **Solder** the control board.
@@ -165,19 +167,19 @@ Tips: You can also install the Arduino IDE on the Raspberry Pi and use the Pi to
 ---
 ## Quick Start
 
-#### 1. **Connect your PC and Raspberry Pi** to the same Wi-Fi network.
+#### Step 1. **Connect your PC and Raspberry Pi** to the same Wi-Fi network.
 
-#### 2. **Find the Raspberry Pi’s IP address**:
+#### Step 2. **Find the Raspberry Pi’s IP address**:
 - On the Raspberry Pi’s **Terminal**, type:
 ```plaintext
 ifconfig
 ```
 - Look for the `wlan0` or `eth0` section. The IP might look like `192.168.x.x`.
 
-#### 3. **Open a Command Prompt** on your Windows PC:
+#### Step 3. **Open a Command Prompt** on your Windows PC:
 - Press the **Start Menu** or **Taskbar** search, type `"cmd"`, and press Enter.
 
-#### 4. Click Command Prompt and put
+#### Step 4. Click Command Prompt and put
 ```plaintext
 ssh [username]@[IP address]
 ```
@@ -187,13 +189,13 @@ ssh pi@192.168.1.100
 ```
 - Enter the Pi’s password when prompted.
 
-#### 5. Once connected, you should see something like:
+#### Step 5. Once connected, you should see something like:
 ```plaintext
 pi@raspberrypi: ~ $
 ```
 This indicates that the Command Prompt is now logged into your Raspberry Pi.
 
-#### 6. Start the control script on the Pi:
+#### Step 6. Start the control script on the Pi:
 ```plaintext
 cd Soft-Haptic-Display-Toolkit/Firmware/Raspberry_Pi/
 source SoftRobo/bin/activate
@@ -201,23 +203,23 @@ python run_robot.py
 ```
 - Keep this Command Prompt session open so the script keeps running.
 
-#### 7. On your Windows PC, open Visual Studio Code (or another Python IDE):
+#### Step 7. On your Windows PC, open Visual Studio Code (or another Python IDE):
 - Navigate to the cloned repository folder:
 ```plaintext
 Soft-Haptic-Display-Toolkit/Software
 ```
 - Locate and **run** `main.py`.
 
-#### 8. In the GUI that appears, **click the `Connect` button** (top-left corner) and **enter the Raspberry Pi’s IP address** (the same one used for SSH).
+#### Step 8. In the GUI that appears, **click the `Connect` button** (top-left corner) and **enter the Raspberry Pi’s IP address** (the same one used for SSH).
 
-#### 9. **Follow** the [GUI Usage.md](Docs/Manual/GUI_Usage.md) for detailed steps on controlling the tactile display.
+#### Step 9. **Follow** the [GUI_tutorial.md](Docs/Manual/GUI_Usage.md) for detailed steps on controlling the tactile display.
 - You should now be able to **inflate** and **deflate** the soft haptic array channels in real time!
 
 ---
 ## Documentation
-- Assembly & Fabrication: [docs/manual/hardware_assembly.md](Docs/Manual/hardware_assembly.md)
-- Firmware Guides: [docs/manual/firmware_setup.md](Docs/Manual/firmware_setup.md)
-- GUI Usage: [docs/manual/GUI Usage.md](Docs/Manual/GUI_Usage.md)
+- Assembly & Fabrication: [docs/manual/Hardware_tutorial.md](Docs/Manual/Hardware_tutorial.md)
+- Firmware Guides: [docs/manual/Firmware_tutorial.md](Docs/Manual/Firmware_tutorial.md)
+- GUI Usage: [docs/manual/GUI_tutorial.md](Docs/Manual/GUI_tutorial.md)
 - Troubleshooting: [docs/Troubleshooting.md](Docs/troubleshooting.md)
 - Bill of controller: [Hardware/Bill of Materials/list of Controller.md](Hardware/Bill%20of%20Materials/list%20of%20Controller.md)
 - Bill of pneumatic system: [Hardware/Bill of Materials/list of Pneumatic.md](Hardware/Bill%20of%20Materials/list%20of%20Pneumatic.md)
