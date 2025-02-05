@@ -250,5 +250,6 @@ We are planning to submit this research to the 2025 Ubiquitous Robots Conference
 Special thanks to our collaborators and the open-source community:
 - Our [Friesen Haptics Lab](https://www.friesenhaptics.com/.).
 - The [INVENT Lab](https://www.theinventlab.com/).
+- The [Human Factors & Cognitive Systems (HF&CS) Lab](https://tamuhfeschapter.wordpress.com/labs/human-factors-cognitive-systems-hfcs-lab/).
 - The [Soft Robotics Toolkit](https://softroboticstoolkit.com/) for inspiration and design references.
 - The [Soft Robotics Control-unit (SRC)](https://github.com/chukhanhhoang/SoftRoboticSetupFesto?tab=readme-ov-file) for control references.
