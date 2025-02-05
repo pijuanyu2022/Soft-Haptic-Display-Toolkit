@@ -15,7 +15,7 @@ Connect the Raspberry Pi to the VEAB board using a [Qwiic I2C 4-pin cable](https
 Connect the Raspberry Pi to one protoboard through **GPIO 17, 27, 22, and 23**.
 
 <p>
-  <img src="../Images/Firmware_tutorial/Raspberry_Pi.png" alt="Raspberry Pi Connection" width="800" />
+  <img src="../Images/Firmware_tutorial/Raspberry_Pi.PNG" alt="Raspberry Pi Connection" width="800" />
 </p>
 
 ---
@@ -33,7 +33,7 @@ Connect the PCA9548A board to four protoboards using the same type of cable for 
 Connect the Arduino to three protoboards through **D13 to D2**.
 
 <p>
-  <img src="../Images/Firmware_tutorial/Arduino.png" alt="Arduino Connection" width="800" />
+  <img src="../Images/Firmware_tutorial/Arduino.PNG" alt="Arduino Connection" width="800" />
 </p>
 
 ---
