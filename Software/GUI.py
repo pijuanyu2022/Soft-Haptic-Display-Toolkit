@@ -919,7 +919,31 @@ class GUI(customtkinter.CTk):
 
     ############### sidebar ##############################
     def command(self):
-        self.text_print(self.entry.get())
+        """
+        Reads user input from entry box and handles commands.
+        If the user types 'help', display a tutorial or guidance in the textbox.
+        """
+        user_input = self.entry.get().strip().lower()
+        self.entry.delete(0, "end")  # Clear the entry field
+
+        if user_input == "help":
+            help_text = (
+                "=== HELP & TUTORIAL GUIDE ===\n\n"
+                "1) Connecting to Raspberry Pi:\n"
+                "   - Go to the Setting Panel and click 'Connect', then enter IP.\n"
+                "2) Adjusting Pressure:\n"
+                "   - Use the Pressure Regulator Panel to select a waveform.\n"
+                "3) Operating Valves:\n"
+                "   - In the Display Panel, toggle valves ON/OFF or use an Auto pattern.\n"
+                "4) Monitoring Sensors:\n"
+                "   - Check real-time plots in the Sensor Panel.\n"
+                "\n"
+                "For more details, see the project documentation!\n\n"
+            )
+            self.textbox.insert("end", help_text)
+        else:
+            # Handle other commands here if needed
+            self.textbox.insert("end", f"You typed: {user_input}\n")
 
     def connect(self):
         # Open an input dialog for entering the Raspberry Pi's IP address
@@ -1246,7 +1270,7 @@ class GUI(customtkinter.CTk):
         test_button.grid(row=0, column=0, padx=5, pady=5)
 
         # Static Tab
-        picture_folder_static = os.path.join(os.getcwd(), "Pictures", "Static")  # Picture folder path
+        picture_folder_static = os.path.join(os.getcwd(), "Docs", "Images", "Static")  # Picture folder path
 
         for i in range(3):  # 3 rows
             for j in range(4):  # 4 columns
@@ -1291,7 +1315,7 @@ class GUI(customtkinter.CTk):
                     print(f"Error loading image {image_path}: {e}")
 
         # Animation Tab
-        picture_folder_animation = os.path.join(os.getcwd(), "Pictures", "Animation")  # Picture folder path
+        picture_folder_animation = os.path.join(os.getcwd(), "Docs", "Images", "Animation")  # Picture folder path
 
         for i in range(3):  # 3 rows
             for j in range(4):  # 4 columns
@@ -1447,7 +1471,7 @@ class GUI(customtkinter.CTk):
             tab_name (str): "Static" or "Animation".
             tabview: The CTkTabview object containing the tabs.
         """
-        folder_path = os.path.join(os.getcwd(), "Pictures", tab_name)
+        folder_path = os.path.join(os.getcwd(), "Docs", "Images", tab_name)
 
         for i in range(3):  # 3 rows
             for j in range(4):  # 4 columns

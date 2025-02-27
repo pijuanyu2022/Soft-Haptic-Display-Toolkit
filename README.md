@@ -128,7 +128,7 @@ Follow the instructions in [Docs/Manual/Hardware_tutorial.md](Docs/Manual/Hardwa
 1. **Fork** this repository in GitHub.
 2. **Open GitHub Desktop** and clone your fork to your local machine.
 3. **Open the cloned repository** in Visual Studio Code or any other Python IDE.
-4. **Locate** the `main.py` file in the `soft-haptic-display/Software` directory:
+4. **Locate** the `main.py` file in the `soft-haptic-display-toolkit/Software` directory:
    ```plaintext
    python main.py
    ```
@@ -212,7 +212,7 @@ Soft-Haptic-Display-Toolkit/Software
 
 #### Step 8. In the GUI that appears, **click the `Connect` button** (top-left corner) and **enter the Raspberry Pi’s IP address** (the same one used for SSH).
 
-#### Step 9. **Follow** the [GUI_tutorial.md](Docs/Manual/GUI_Usage.md) for detailed steps on controlling the tactile display.
+#### Step 9. **Follow** the [GUI_tutorial.md](Docs/Manual/GUI_tutorial.md) for detailed steps on controlling the tactile display.
 - You should now be able to **inflate** and **deflate** the soft haptic array channels in real time!
 
 ---
